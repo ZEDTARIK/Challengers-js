@@ -9,4 +9,4 @@ function LongestWord(sentence) {
 
 }
 
-console.log(LongestWord("first Hello LongestWord shortWord")); // output LongestWord
+console.log(LongestWord("fun&!! time")); // output LongestWord
