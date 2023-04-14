@@ -1,6 +1,11 @@
+/**
+ * The function returns the sum of positive numbers in an array.
+ * @param array - An array of numbers.
+ * @returns The function `SumOfNumbersArray` returns the sum of positive numbers inside the input
+ * array. It uses the `filter` method to create a new array with only positive numbers, and then uses
+ * the `reduce` method to sum up the values in the filtered array.
+ */
 function SumOfNumbersArray(array) {
-    // return Sum of numbers inside array solo Positives Numbers
-
     return array.filter((arr) => arr > 0).reduce((acc, cur) => acc+cur, 0);
 
 /*

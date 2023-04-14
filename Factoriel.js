@@ -1,3 +1,8 @@
+/**
+ * The function calculates the factorial of a given number using recursion.
+ * @param num - The parameter "num" is a number for which the factorial is to be calculated.
+ * @returns the factorial of the input number 'num'.
+ */
 function Factorial(num) {
     return (num ===1 ? 1 : num * Factorial(num -1));
 }

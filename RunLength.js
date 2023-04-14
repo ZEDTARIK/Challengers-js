@@ -1,3 +1,10 @@
+/**
+ * The RunLength function compresses a string by counting consecutive characters and outputting the
+ * count followed by the character.
+ * @param str - The input string that needs to be compressed using run-length encoding.
+ * @returns The function `RunLength` is returning a string that represents the run-length encoding of
+ * the input string `str`.
+ */
 function RunLength(str) {
     let count = 1;
     let result = "";
