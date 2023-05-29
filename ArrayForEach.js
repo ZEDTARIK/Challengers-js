@@ -1,3 +1,4 @@
+// array 
 const score = [90, 15, 14, 74, 62, 47];
 
 for (const point of score) {
