@@ -7,7 +7,9 @@
  * finally the `join('')` method is used to convert the array
  */
 function DoubleChar(str) {
-    return str.split('').map(e => e.repeat(2)).join('');
+    return str.split('')
+        .map(e => e.repeat(2))
+        .join('');
 }
 
 console.log(DoubleChar('1 2 3'));
